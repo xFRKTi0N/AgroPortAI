@@ -1,4 +1,5 @@
 :root {
+  --header-height: 126px;
   --bg: #f4fbf6;
   --bg-2: #eaf8f0;
   --dark: #06261f;
@@ -65,13 +66,16 @@ textarea {
 }
 
 .site-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
   background: #ffffff;
-  border-bottom: 1px solid rgba(6, 59, 46, 0.08);
+  border-bottom: 1px solid rgba(11, 59, 46, 0.08);
   backdrop-filter: none;
 }
 
 .nav {
-  min-height: 82px;
+  min-height: var(--header-height);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -79,7 +83,7 @@ textarea {
 }
 
 .brand img {
-  width: clamp(220px, 24vw, 280px);
+  width: clamp(220px, 23vw, 280px);
   height: auto;
   display: block;
 }
@@ -165,7 +169,7 @@ textarea {
 
 .hero {
   position: relative;
-  min-height: calc(100svh - 82px);
+  min-height: calc(100svh - var(--header-height));
   overflow: hidden;
   isolation: isolate;
   color: var(--white);
@@ -211,7 +215,7 @@ textarea {
 }
 
 .hero-inner {
-  min-height: calc(100svh - 82px);
+  min-height: calc(100svh - var(--header-height));
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(290px, 370px);
   gap: clamp(28px, 5vw, 72px);
@@ -768,8 +772,8 @@ textarea {
 
 .site-footer {
   padding: 64px 0 28px;
-  background: var(--dark);
-  color: rgba(255,255,255,.74);
+  background: #ffffff;
+  color: var(--dark);
 }
 
 .footer-grid {
@@ -779,26 +783,30 @@ textarea {
 }
 
 .footer-logo {
-  width: 210px;
+  width: min(300px, 100%);
   margin-bottom: 18px;
+  border-radius: 0;
+  background: transparent;
+  padding: 0;
 }
 
 .site-footer h3 {
   margin: 0 0 12px;
-  color: var(--white);
+  color: var(--dark);
 }
 
 .site-footer p {
   margin: 0 0 12px;
+  color: var(--green-950);
 }
 
 .site-footer a {
-  color: var(--green-300);
+  color: var(--green-700);
   font-weight: 800;
 }
 
 .bangla-line {
-  color: rgba(255,255,255,.88);
+  color: var(--green-950);
 }
 
 .footer-bottom {
@@ -807,7 +815,8 @@ textarea {
   gap: 20px;
   padding-top: 28px;
   margin-top: 42px;
-  border-top: 1px solid rgba(255,255,255,.1);
+  border-top: 1px solid rgba(6, 38, 31, .12);
+  color: var(--green-950);
   font-size: 14px;
 }
 
@@ -858,14 +867,14 @@ textarea {
 
   .nav-menu {
     position: fixed;
-    inset: 82px 20px auto 20px;
+    inset: calc(var(--header-height) + 10px) 20px auto 20px;
     display: none;
     flex-direction: column;
     align-items: stretch;
     gap: 0;
     padding: 16px;
     border-radius: 24px;
-    background: rgba(255,255,255,.97);
+    background: rgba(253,253,252,.98);
     box-shadow: var(--shadow);
     border: 1px solid var(--line);
   }
@@ -914,12 +923,16 @@ textarea {
 }
 
 @media (max-width: 620px) {
+  :root {
+    --header-height: 98px;
+  }
+
   .container {
     width: min(100% - 28px, 1160px);
   }
 
   .brand img {
-    width: 164px;
+    width: 220px;
   }
 
   .hero-inner {
