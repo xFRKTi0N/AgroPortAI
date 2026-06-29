@@ -69,7 +69,7 @@ textarea {
   position: sticky;
   top: 0;
   z-index: 100;
-  background: #ffffff;
+  background: #fefefe;
   border-bottom: 1px solid rgba(11, 59, 46, 0.08);
   backdrop-filter: none;
 }
@@ -772,7 +772,7 @@ textarea {
 
 .site-footer {
   padding: 64px 0 28px;
-  background: #ffffff;
+  background: #fefefe;
   color: var(--dark);
 }
 
