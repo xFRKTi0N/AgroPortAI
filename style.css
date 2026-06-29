@@ -65,11 +65,8 @@ textarea {
 }
 
 .site-header {
-  position: sticky;
-  top: 0;
-  z-index: 100;
   background: #ffffff;
-  border-bottom: 1px solid rgba(11, 59, 46, 0.08);
+  border-bottom: 1px solid rgba(6, 59, 46, 0.08);
   backdrop-filter: none;
 }
 
