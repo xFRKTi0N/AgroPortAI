@@ -1,0 +1,20 @@
+<svg width="760" height="520" viewBox="0 0 760 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs><linearGradient id="c" x1="55" y1="50" x2="708" y2="486" gradientUnits="userSpaceOnUse"><stop stop-color="#EAFDF1"/><stop offset="1" stop-color="#DBF2FF"/></linearGradient></defs>
+  <rect x="22" y="22" width="716" height="476" rx="44" fill="url(#c)"/>
+  <rect x="98" y="86" width="564" height="334" rx="28" fill="#0B3B2E"/>
+  <rect x="127" y="125" width="510" height="254" rx="22" fill="#F4FFF8"/>
+  <rect x="155" y="151" width="163" height="86" rx="18" fill="#E0FDEC"/>
+  <rect x="342" y="151" width="267" height="86" rx="18" fill="#EAF6FF"/>
+  <rect x="155" y="260" width="214" height="91" rx="18" fill="#0E4335"/>
+  <rect x="394" y="260" width="215" height="91" rx="18" fill="#E0FDEC"/>
+  <path d="M181 211c22-38 41-23 62-36 20-12 34-3 48 23" stroke="#18C47D" stroke-width="8" stroke-linecap="round"/>
+  <path d="M366 207h196M366 178h144" stroke="#2F9DF5" stroke-width="8" stroke-linecap="round"/>
+  <path d="M181 319c26-43 52-61 80-42 24 15 41 2 71-41" stroke="#80F7B4" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="181" cy="319" r="7" fill="#FFFFFF"/><circle cx="261" cy="277" r="7" fill="#FFFFFF"/><circle cx="332" cy="236" r="7" fill="#FFFFFF"/>
+  <path d="M428 319h58M428 294h93M428 339h128" stroke="#0B3B2E" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="575" cy="296" r="18" fill="#19C37D"/><path d="M568 296l5 6 11-13" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="254" y="438" width="252" height="34" rx="17" fill="#0B3B2E"/>
+  <path d="M293 455h174" stroke="#80F7B4" stroke-width="8" stroke-linecap="round"/>
+  <g transform="translate(586 56)"><circle cx="42" cy="42" r="42" fill="#FFFFFF"/><path d="M42 18v30l22 13" stroke="#0B3B2E" stroke-width="7" stroke-linecap="round"/><circle cx="42" cy="42" r="8" fill="#19C37D"/></g>
+  <g transform="translate(65 339)"><rect width="107" height="77" rx="18" fill="#FFFFFF"/><path d="M29 38h51M29 56h34" stroke="#0B3B2E" stroke-width="7" stroke-linecap="round"/><circle cx="78" cy="21" r="10" fill="#2F9DF5"/></g>
+</svg>

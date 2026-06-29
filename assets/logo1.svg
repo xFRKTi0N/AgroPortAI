@@ -1,0 +1,27 @@
+<svg width="280" height="72" viewBox="0 0 280 72" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">AgroPort AI Logo</title>
+  <desc id="desc">Clear digital agriculture logo for AgroPort AI with leaf, circuit and flight path.</desc>
+  <defs>
+    <linearGradient id="leafGrad" x1="10" y1="8" x2="58" y2="62" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#18D37A"/>
+      <stop offset="1" stop-color="#0B7A53"/>
+    </linearGradient>
+    <linearGradient id="sparkGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#B6FFD3"/>
+      <stop offset="1" stop-color="#EFFFF7"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="4" y="6" width="58" height="58" rx="16" fill="#08382D"/>
+  <path d="M19 39.2C19 28.6 28.5 19.6 42.5 18.4C41.5 29.8 35.2 39.6 23.7 46.5C21 44.8 19 42.2 19 39.2Z" fill="url(#leafGrad)"/>
+  <path d="M46 22.2C34.4 27.2 27.3 36.4 24.8 49.2" stroke="#C9FFE0" stroke-width="2.8" stroke-linecap="round"/>
+  <path d="M15.5 44.5H12.8C11.3 44.5 10 43.3 10 41.7V38.8" stroke="#C9FFE0" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M43.2 17.5H47.2C49 17.5 50.5 18.9 50.5 20.7V24.3" stroke="#C9FFE0" stroke-width="2.4" stroke-linecap="round"/>
+  <circle cx="10.8" cy="38" r="2.4" fill="url(#sparkGrad)"/>
+  <circle cx="50.5" cy="25" r="2.4" fill="url(#sparkGrad)"/>
+  <path d="M44 16.4C48.6 10.6 53.8 9.8 58 11.4C54.2 13.2 51 17 49 22.2" stroke="#C9FFE0" stroke-width="2.4" stroke-linecap="round"/>
+
+  <text x="80" y="31" fill="#0A3B2F" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="800" letter-spacing="0.2">AgroPort</text>
+  <text x="212" y="31" fill="#18B66C" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="800" letter-spacing="0.2">AI</text>
+  <text x="80" y="51" fill="#4F7A6A" font-family="Inter, Arial, sans-serif" font-size="11.5" font-weight="700" letter-spacing="1.8">DIGITAL AGRICULTURE • COLD STORAGE • TRADE</text>
+</svg>

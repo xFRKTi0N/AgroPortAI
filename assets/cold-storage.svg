@@ -1,0 +1,18 @@
+<svg width="760" height="520" viewBox="0 0 760 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs><linearGradient id="a" x1="58" y1="57" x2="705" y2="491" gradientUnits="userSpaceOnUse"><stop stop-color="#E8FFF1"/><stop offset="1" stop-color="#DDF5FF"/></linearGradient></defs>
+  <rect x="24" y="22" width="712" height="476" rx="38" fill="url(#a)"/>
+  <path d="M134 336h492v72H134z" fill="#B8EFD0"/>
+  <path d="M162 212h436v124H162z" fill="#0B3B2E"/>
+  <path d="M142 208l238-106 238 106H142z" fill="#18B976"/>
+  <rect x="203" y="246" width="95" height="90" rx="8" fill="#EAFDF1"/>
+  <rect x="333" y="246" width="95" height="90" rx="8" fill="#EAFDF1"/>
+  <rect x="463" y="246" width="95" height="90" rx="8" fill="#EAFDF1"/>
+  <path d="M221 273h58M221 298h58M351 273h58M351 298h58M481 273h58M481 298h58" stroke="#2EAD7A" stroke-width="7" stroke-linecap="round"/>
+  <rect x="146" y="336" width="468" height="72" rx="12" fill="#0B3B2E"/>
+  <rect x="181" y="360" width="104" height="24" rx="12" fill="#DDFDEB"/><rect x="326" y="360" width="104" height="24" rx="12" fill="#80F7B4"/><rect x="473" y="360" width="104" height="24" rx="12" fill="#DDFDEB"/>
+  <g transform="translate(581 93)"><circle cx="50" cy="50" r="50" fill="#FFFFFF"/><path d="M50 20v60M24 35l52 30M76 35 24 65" stroke="#2F9DF5" stroke-width="8" stroke-linecap="round"/><circle cx="50" cy="50" r="12" fill="#2F9DF5"/></g>
+  <g transform="translate(77 112)"><rect x="0" y="0" width="112" height="150" rx="28" fill="#FFFFFF"/><path d="M56 24v70" stroke="#0B3B2E" stroke-width="8" stroke-linecap="round"/><circle cx="56" cy="103" r="24" fill="#1DC87E"/><path d="M38 28h36" stroke="#0B3B2E" stroke-width="8" stroke-linecap="round"/></g>
+  <rect x="142" y="431" width="150" height="40" rx="20" fill="#FFFFFF"/><text x="183" y="456" font-family="Inter,Arial" font-size="18" font-weight="800" fill="#0B3B2E">Daily</text>
+  <rect x="305" y="431" width="150" height="40" rx="20" fill="#FFFFFF"/><text x="341" y="456" font-family="Inter,Arial" font-size="18" font-weight="800" fill="#0B3B2E">Weekly</text>
+  <rect x="468" y="431" width="150" height="40" rx="20" fill="#FFFFFF"/><text x="500" y="456" font-family="Inter,Arial" font-size="18" font-weight="800" fill="#0B3B2E">Monthly</text>
+</svg>
